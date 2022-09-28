@@ -20,7 +20,9 @@ if [ ! -d $GIT_DIR ]; then
     git clone $REPO $GIT_DIR
 fi
 
-git --git-dir=$GIT_DIR/.git pull -q
+cd $GIT_DIR
+git pull -q
+cd $DIR
 
 docker run --rm -u $(id -u):$(id -g) \
        -v $GIT_DIR:/buildroot:ro \
