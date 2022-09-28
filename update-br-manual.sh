@@ -2,7 +2,7 @@
 # update buildroot manual for nightly.b.o
 set -e
 
-DOCKER=buildroot-manual:latest
+DOCKER=buildroot-manual:20220928
 REPO=https://gitlab.com/buildroot.org/buildroot.git
 
 DIR=${0%/*}

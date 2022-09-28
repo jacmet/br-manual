@@ -4,6 +4,7 @@ RUN apt-get update  && \
 	    asciidoc \
 	    asciidoc-dblatex \
     	    build-essential \
+	    docbook-xsl \
 	    git \
 	    rsync \
 	    w3m \
