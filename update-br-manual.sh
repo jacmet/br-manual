@@ -3,7 +3,7 @@
 set -e
 
 DOCKER=buildroot-manual:latest
-REPO=git://git.busybox.net/buildroot
+REPO=https://gitlab.com/buildroot.org/buildroot.git
 
 DIR=${0%/*}
 GIT_DIR=$DIR/buildroot
